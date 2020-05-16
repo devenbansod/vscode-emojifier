@@ -11,7 +11,8 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  test:
+    name: Test
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
@@ -19,8 +20,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Run headless test
-        uses: GabrielBB/xvfb-action@v1.2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
-          working-directory: ./ #optional
+          node-version: 12
+      - name: Install dependencies
+        run: npm install
+      - name: Run headless test
+        uses: GabrielBB/xvfb-action@v1.0
+        with:
           run: npm test

@@ -2,6 +2,8 @@
 
 A Visual Studio Code extension to turn text emojis into real emojis.
 
+**Right now, enabled to work with Markdown files only**
+
 ## How to use
 
 ### Convert in selected text

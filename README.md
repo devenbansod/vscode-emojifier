@@ -4,6 +4,10 @@ A Visual Studio Code extension to turn text emojis into real emojis.
 
 **Right now, enabled to work with Markdown files only**
 
+## How to install
+
+Easiest route would be through the ways suggested on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=devenbansodbits.emojifier)
+
 ## How to use
 
 ### Convert in selected text

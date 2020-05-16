@@ -3,7 +3,11 @@
   "displayName": "emojifier",
   "description": "Transform text to equivalent emojis",
   "version": "0.0.1",
-  "publisher": "devenbansod",
+  "publisher": "devenbansodbits",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devenbansod/vscode-emojifier.git"
+  },
   "engines": {
     "vscode": "^1.45.0"
   },

@@ -5,7 +5,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 const extension = vscode.extensions.getExtension(
-  'devenbansod.emojifier'
+  'devenbansodbits.emojifier'
 );
 
 export async function activateExtension() {

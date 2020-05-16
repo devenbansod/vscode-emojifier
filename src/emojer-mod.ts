@@ -72,7 +72,7 @@ const escapeRegExp = function (str: string) {
  *
  * @param {String} text The text to be replaced by the emojis
  */
-const replace = function(text: string) {
+const replace = function (text: string) {
   const keys = Object.keys(emojiCodes);
   let i = keys.length;
 

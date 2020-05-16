@@ -57,7 +57,7 @@
 		"compile": "webpack --mode none",
 		"watch": "webpack --mode none --watch",
 		"lint": "eslint src --ext ts",
-		"pretest": "npm run compile && npm run lint",
+		"pretest": "npm run compile && npm run test-compile && npm run lint",
 		"test": "node ./out/test/runTest.js",
 		"test-compile": "tsc -p ./"
 	},
